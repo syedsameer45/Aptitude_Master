@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptitude Master Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#home" class="nav-logo">APTITUDE MASTER</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#verbal">Verbal</a>
+                <a href="#numerical">Numerical</a>
+                <a href="#reasoning">Reasoning</a>
+                <a href="#syllabus">Syllabus</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Master Competitive Exams<br>Like a Pro</h1>
+            <p>10,000+ practice questions | AI-powered analytics | Expert-curated content</p>
+            <button class="cta-button">Start Learning Now</button>
+        </div>
+        <div id="pdf-container" style="display:none;">
+            <iframe id="pdf-viewer" width="100%" height="600px"></iframe>
+        </div>
+    </section>
+    <!-- Verbal Ability Section -->
+    <section id="verbal" class="topic-section">
+        <h2>Verbal Ability</h2>
+        <div class="subtopics-grid">
+            <!-- Generated subtopics -->
+            <div class="subtopic-card">
+                <h3>Synonyms</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Synonyms and Antonyms.pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Antonyms</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Synonyms and Antonyms.pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Prepositions</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Prepositionsraw.pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Sentence Completion</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('sentence completions.pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Active and Passive Voice</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('Active and passive voice .pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Spelling Test</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('spelling referencelist .pdf', '_blank')">Demo</button>
+
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Spotting Errors</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Error Spotting.pdf','_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Passage Completion</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('passage completion.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn" id="passageMockBtn">Mock</button>
+                </div>
+                <div id="passageQuizContainer" style="display: none;"></div>
+            </div>
+
+            <div class="subtopic-card">
+                <h3>Substitution</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('one word.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Sentence Arrangement</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Sentence Rearrangement.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+
+            <div class="subtopic-card">
+                <h3>Idioms and Phrases</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('idioms and phrasal verbs.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Articles</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Article Usage.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+
+
+
+    </section>
+
+
+    <!-- Numerical Ability Section -->
+    <section id="numerical" class="topic-section">
+        <h2>Numerical Ability</h2>
+        <div class="subtopics-grid">
+            <!-- Generated subtopics -->
+            <div class="subtopic-card">
+                <h3>Arrangements and Series</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('Seating Arrangement.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>P&amp;C</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('p and c.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Number System, LCM &amp; HCF</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('3.LCM-HCF.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Percentages</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('percentages.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Allegations and Mixtures</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('mixture and alligations.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Probability</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('probability.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Ratios, Proportion, and Averages</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('ratio proportions and averages.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+
+            <div class="subtopic-card">
+                <h3>Work and Time</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('time and work.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Speed Time and Distance</h3>
+                <div class="button-group">
+                    <button class="demo-btn"
+                        onclick="window.open('speed distance and time.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+
+            <div class="subtopic-card">
+                <h3>Divisibility</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('divisibility.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Profit and Loss</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('profit and loss.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Ages</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('ages.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Clocks &amp; Calendar</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('clocks.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Sequence &amp; Series</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('sequence and series.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Areas,Shapes&amp; Perimeter</h3>
+                <div class="button-group">
+                    <button class="demo-btn" onclick="window.open('perimeter and area.pdf', '_blank')">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+           
+
+    </section>
+
+
+    <!-- Reasoning Ability Section -->
+    <section id="reasoning" class="topic-section">
+        <h2>Reasoning Ability</h2>
+        <div class="subtopics-grid">
+            <!-- Generated subtopics -->
+            <div class="subtopic-card">
+                <h3>Meaningful Word Creation</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Number Series – Missing Number Single, Missing Number Analogy</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Data Sufficiency – Rank Based Logic, Ages</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Blood Relations</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Coding-Decoding</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Ages</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Odd Man Out – Numbers, Logical</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Distance and Directions</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Statement and Conclusion</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Seating Arrangement (Easy)</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Seating Arrangement (Complex)</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Analogy</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Mathematical Operational Arrangement</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+            <div class="subtopic-card">
+                <h3>Symbols and Notations</h3>
+                <div class="button-group">
+                    <button class="demo-btn">Demo</button>
+                    <button class="mock-btn">Mock</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus Section -->
+    <section id="syllabus" class="syllabus-section">
+        <h2>Syllabus</h2>
+        <div class="syllabus-grid">
+            <!-- Verbal Syllabus -->
+            <div class="syllabus-category">
+                <h3>Verbal Ability</h3>
+                <div class="subtopics-list">
+                    <div class="syllabus-item">Synonyms</div>
+                    <div class="syllabus-item">Antonyms</div>
+                    <div class="syllabus-item">Prepositions</div>
+                    <div class="syllabus-item">Sentence Completion</div>
+                    <div class="syllabus-item">Active and Passive Voice</div>
+                    <div class="syllabus-item">Spelling Test</div>
+                    <div class="syllabus-item">Spotting Errors</div>
+                    <div class="syllabus-item">Passage Completion</div>
+                    <div class="syllabus-item">Substitution</div>
+                    <div class="syllabus-item">Sentence Arrangement</div>
+                    <div class="syllabus-item">Transformation</div>
+                    <div class="syllabus-item">Idioms and Phrases</div>
+                    <div class="syllabus-item">Sentence Improvement</div>
+                    <div class="syllabus-item">Para Completion</div>
+                    <div class="syllabus-item">Joining Sentences</div>
+                    <div class="syllabus-item">Error Correction (Underlined Part)</div>
+                    <div class="syllabus-item">Error Correction (Phrase in Bold)</div>
+                    <div class="syllabus-item">Fill in the blanks</div>
+                </div>
+            </div>
+            <!-- Numerical Syllabus -->
+            <div class="syllabus-category">
+                <h3>Numerical Ability</h3>
+                <div class="subtopics-list">
+                    <div class="syllabus-item">Arrangements and Series</div>
+                    <div class="syllabus-item">P&C</div>
+                    <div class="syllabus-item">Number System, LCM & HCF</div>
+                    <div class="syllabus-item">Percentages</div>
+                    <div class="syllabus-item">Allegations and Mixtures</div>
+                    <div class="syllabus-item">Probability</div>
+                    <div class="syllabus-item">Ratios, Proportion, and Averages</div>
+                    <div class="syllabus-item">Reasoning</div>
+                    <div class="syllabus-item">Work and Time</div>
+                    <div class="syllabus-item">Speed Time and Distance</div>
+                    <div class="syllabus-item">Geometry</div>
+                    <div class="syllabus-item">Divisibility</div>
+                    <div class="syllabus-item">Profit and Loss</div>
+                    <div class="syllabus-item">Ages</div>
+                    <div class="syllabus-item">Clocks & Calendar</div>
+                    <div class="syllabus-item">Series and Progressions</div>
+                    <div class="syllabus-item">Equations</div>
+                    <div class="syllabus-item">Averages</div>
+                    <div class="syllabus-item">Area, Shapes & Perimeter</div>
+                    <div class="syllabus-item">Numbers & Decimal Fractions</div>
+                </div>
+            </div>
+            <!-- Reasoning Syllabus -->
+            <div class="syllabus-category">
+                <h3>Reasoning Ability</h3>
+                <div class="subtopics-list">
+                    <div class="syllabus-item">Meaningful Word Creation</div>
+                    <div class="syllabus-item">Number Series – Missing Number Single, Missing Number Analogy</div>
+                    <div class="syllabus-item">Data Sufficiency – Rank Based Logic, Ages</div>
+                    <div class="syllabus-item">Blood Relations</div>
+                    <div class="syllabus-item">Coding-Decoding</div>
+                    <div class="syllabus-item">Ages</div>
+                    <div class="syllabus-item">Odd Man Out – Numbers, Logical</div>
+                    <div class="syllabus-item">Distance and Directions</div>
+                    <div class="syllabus-item">Statement and Conclusion</div>
+                    <div class="syllabus-item">Seating Arrangement (Easy)</div>
+                    <div class="syllabus-item">Seating Arrangement (Complex)</div>
+                    <div class="syllabus-item">Analogy</div>
+                    <div class="syllabus-item">Mathematical Operational Arrangement</div>
+                    <div class="syllabus-item">Symbols and Notations</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- Add these new sections before closing </body> -->
+    <div id="theoryModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="theoryTitle"></h3>
+            <div id="theoryContent"></div>
+        </div>
+    </div>
+
+    <div id="quizContainer" class="quiz-container">
+        <div class="quiz-header">
+            <h3 id="quizTopic"></h3>
+            <div class="quiz-info">
+                <span id="timer">00:00</span>
+                <span id="progress">Question 1/10</span>
+            </div>
+        </div>
+        <div id="questionContainer"></div>
+        <div id="scoreCard" class="score-card"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
