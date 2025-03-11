@@ -1909,7 +1909,7 @@ const quizData = {
                               }
                             ],
                             
-                                "Areas, Shapes & Perimeter": [
+                                "Areas,Shapes& Perimeter": [
                                   {
                                     "question": "What is the area of a square with a side of 8 cm?",
                                     "options": ["16 sq cm", "32 sq cm", "64 sq cm", "128 sq cm"],
